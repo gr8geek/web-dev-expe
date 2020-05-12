@@ -1,0 +1,87 @@
+
+main {
+    width: 94%;
+    margin: 0 auto;
+}
+
+
+html, body {
+background-image: url("https://i.pinimg.com/originals/ff/19/ed/ff19ed06db02f5b0b639f0bb96a5ee3c.jpg");
+background-repeat: no-repeat;
+background-size:100% 160%;
+
+
+}
+body {
+margin: 0;
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 13px;
+font-weight: normal;
+color: #404040;
+}
+
+h1 {
+font-size: 300%;
+padding: 0;
+}
+
+h1, h2{
+text-align: center;
+text-transform: uppercase;
+}
+
+
+.column {
+    
+color:#990000;
+background-color:#44aaaa;
+/**margin: 20px 20px 20px 20px;**/
+margin: 2%;
+padding:7px;
+border-style: solid;
+border-color:#22aaff;
+background-repeat: no-repeat;
+background-size:100% 100% ;
+opacity: 0.5;
+}
+.text{
+    font-weight: bold;
+  color: #000000;
+  opacity: 1;
+}
+
+@media screen and (min-width:778px){
+    .column {
+        width:30%;
+        height:100%;
+        display: inline-block;
+    color:#990000;
+    background-color:#44aaaa;
+    /**margin: 20px 20px 20px 20px;**/
+    margin: 2%;
+    padding:7px;
+    border-style: solid;
+    border-color:#22aaff;
+    background-repeat: no-repeat;
+    background-size:100% 100% ;
+    opacity: 0.5;
+    }
+}
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    opacity: 0.5;
+
+  }
+  #myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+  }
